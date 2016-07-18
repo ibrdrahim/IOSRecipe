@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A5DF81F1D361E5400976C20 /* NSUserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5DF81E1D361E5400976C20 /* NSUserDefaultManager.swift */; };
+		2AB24FF11D34AE1F00B9A6AC /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB24FF01D34AE1E00B9A6AC /* RecipeTableViewCell.swift */; };
+		2AB24FF31D34CA3000B9A6AC /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB24FF21D34CA3000B9A6AC /* Recipe.swift */; };
+		2AB24FF51D34CAAA00B9A6AC /* RecipeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB24FF41D34CAAA00B9A6AC /* RecipeManager.swift */; };
 		2ADD5B7F1D333F21001E1D8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADD5B7E1D333F21001E1D8D /* AppDelegate.swift */; };
 		2ADD5B811D333F21001E1D8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADD5B801D333F21001E1D8D /* ViewController.swift */; };
 		2ADD5B841D333F21001E1D8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ADD5B821D333F21001E1D8D /* Main.storyboard */; };
@@ -14,6 +18,8 @@
 		2ADD5B891D333F21001E1D8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ADD5B871D333F21001E1D8D /* LaunchScreen.storyboard */; };
 		2ADD5B941D333F21001E1D8D /* Learning1_RecipesAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADD5B931D333F21001E1D8D /* Learning1_RecipesAppTests.swift */; };
 		2ADD5B9F1D333F21001E1D8D /* Learning1_RecipesAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADD5B9E1D333F21001E1D8D /* Learning1_RecipesAppUITests.swift */; };
+		2ADD5BAD1D3399A9001E1D8D /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADD5BAC1D3399A9001E1D8D /* AddViewController.swift */; };
+		2ADD5BAF1D3399BE001E1D8D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADD5BAE1D3399BE001E1D8D /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A5DF81E1D361E5400976C20 /* NSUserDefaultManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSUserDefaultManager.swift; sourceTree = "<group>"; };
+		2AB24FF01D34AE1E00B9A6AC /* RecipeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeTableViewCell.swift; sourceTree = "<group>"; };
+		2AB24FF21D34CA3000B9A6AC /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		2AB24FF41D34CAAA00B9A6AC /* RecipeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeManager.swift; sourceTree = "<group>"; };
 		2ADD5B7B1D333F21001E1D8D /* Learning1_RecipesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Learning1_RecipesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ADD5B7E1D333F21001E1D8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2ADD5B801D333F21001E1D8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		2ADD5B9A1D333F21001E1D8D /* Learning1_RecipesAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Learning1_RecipesAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ADD5B9E1D333F21001E1D8D /* Learning1_RecipesAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning1_RecipesAppUITests.swift; sourceTree = "<group>"; };
 		2ADD5BA01D333F21001E1D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ADD5BAC1D3399A9001E1D8D /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		2ADD5BAE1D3399BE001E1D8D /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +111,13 @@
 			children = (
 				2ADD5B7E1D333F21001E1D8D /* AppDelegate.swift */,
 				2ADD5B801D333F21001E1D8D /* ViewController.swift */,
+				2AB24FF21D34CA3000B9A6AC /* Recipe.swift */,
+				2A5DF81E1D361E5400976C20 /* NSUserDefaultManager.swift */,
+				2AB24FF41D34CAAA00B9A6AC /* RecipeManager.swift */,
+				2AB24FF01D34AE1E00B9A6AC /* RecipeTableViewCell.swift */,
 				2ADD5B821D333F21001E1D8D /* Main.storyboard */,
+				2ADD5BAC1D3399A9001E1D8D /* AddViewController.swift */,
+				2ADD5BAE1D3399BE001E1D8D /* DetailViewController.swift */,
 				2ADD5B851D333F21001E1D8D /* Assets.xcassets */,
 				2ADD5B871D333F21001E1D8D /* LaunchScreen.storyboard */,
 				2ADD5B8A1D333F21001E1D8D /* Info.plist */,
@@ -257,7 +275,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ADD5B811D333F21001E1D8D /* ViewController.swift in Sources */,
+				2AB24FF11D34AE1F00B9A6AC /* RecipeTableViewCell.swift in Sources */,
 				2ADD5B7F1D333F21001E1D8D /* AppDelegate.swift in Sources */,
+				2AB24FF31D34CA3000B9A6AC /* Recipe.swift in Sources */,
+				2AB24FF51D34CAAA00B9A6AC /* RecipeManager.swift in Sources */,
+				2A5DF81F1D361E5400976C20 /* NSUserDefaultManager.swift in Sources */,
+				2ADD5BAD1D3399A9001E1D8D /* AddViewController.swift in Sources */,
+				2ADD5BAF1D3399BE001E1D8D /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,10 +425,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Learning1_RecipesApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ibrahim.Learning1-RecipesApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -412,10 +439,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Learning1_RecipesApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ibrahim.Learning1-RecipesApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +514,7 @@
 				2ADD5BA51D333F21001E1D8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2ADD5BA61D333F21001E1D8D /* Build configuration list for PBXNativeTarget "Learning1_RecipesAppTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +523,7 @@
 				2ADD5BA81D333F21001E1D8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2ADD5BA91D333F21001E1D8D /* Build configuration list for PBXNativeTarget "Learning1_RecipesAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +532,7 @@
 				2ADD5BAB1D333F21001E1D8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
